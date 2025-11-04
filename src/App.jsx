@@ -3,7 +3,7 @@
 // 2- just print the name of all files and folders present in the data
 // 3- make ui like a file explorer - the tree like structure adding add delete and reame options
 // 4- implement open close functinality
-// 5- implement add file and folder functionality - inside this handle im=nput asccordingly
+// 5- implement add file and folder functionality - inside this handle input asccordingly
 // 6- implement delete file and folder functionality
 // 7- implement rename file and folder functionality
 
