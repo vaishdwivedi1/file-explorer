@@ -1,0 +1,52 @@
+[
+  {
+    "name": "node_modules",
+    "isFolder": true,
+    "children": [
+      {
+        "name": "react",
+        "isFolder": true,
+        "children": []
+      },
+      {
+        "name": "react-dom",
+        "isFolder": false
+      }
+    ]
+  },
+  {
+    "name": "src",
+    "isFolder": true,
+    "children": [
+      {
+        "name": "App.jsx",
+        "isFolder": false
+      },
+      {
+        "name": "data.json",
+        "isFolder": false
+      },
+      {
+        "name": "components",
+        "isFolder": true,
+        "children": []
+      },
+      {
+        "name": "index.css",
+        "isFolder": false
+      },
+      {
+        "name": "main.jsx",
+        "isFolder": false
+      }
+    ]
+  },
+  {
+    "name": "index.html",
+    "isFolder": false
+  },
+  {
+    "name": "pacakage.json",
+    "isFolder": false
+  }
+]
