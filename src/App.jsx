@@ -11,23 +11,25 @@ import { useState } from "react";
 import File from "./components/File";
 import data from "./data.json";
 function App() {
-  const [folderData, setFolderData] = useState(data)
+  const [folderData, setFolderData] = useState(data);
   return (
-    <>
-      File explorer
+    <div style={{width:"max-content"}}>
+      <h1> File explorer </h1>
       {/* printing just the parent  */}
       {/* {data?.map((ele)=>(
       <>
       <p>{ele?.name}</p>
       </>
      ))} */}
-
-
       {/* here comes the recurraion of preting all the files whether parent or children */}
       {folderData?.map((ele) => (
-        <File data={ele}  folderData={folderData} setFolderData={setFolderData} />
+        <File
+          data={ele}
+          folderData={folderData}
+          setFolderData={setFolderData}
+        />
       ))}
-    </>
+    </div>
   );
 }
 
