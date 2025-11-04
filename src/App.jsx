@@ -7,9 +7,11 @@
 // 6- implement delete file and folder functionality
 // 7- implement rename file and folder functionality
 
+import { useState } from "react";
 import File from "./components/File";
 import data from "./data.json";
 function App() {
+  const [folderData, setFolderData] = useState(data)
   return (
     <>
       File explorer
@@ -22,8 +24,8 @@ function App() {
 
 
       {/* here comes the recurraion of preting all the files whether parent or children */}
-      {data?.map((ele) => (
-        <File data={ele} />
+      {folderData?.map((ele) => (
+        <File data={ele}  folderData={folderData} setFolderData={setFolderData} />
       ))}
     </>
   );
