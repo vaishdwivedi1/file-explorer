@@ -2,14 +2,17 @@
   {
     "name": "node_modules",
     "isFolder": true,
+    "id": 1,
     "children": [
       {
         "name": "react",
         "isFolder": true,
+        "id": 2,
         "children": []
       },
       {
         "name": "react-dom",
+        "id": 3,
         "isFolder": false
       }
     ]
@@ -17,36 +20,44 @@
   {
     "name": "src",
     "isFolder": true,
+    "id": 4,
     "children": [
       {
         "name": "App.jsx",
+        "id": 5,
         "isFolder": false
       },
       {
         "name": "data.json",
+        "id": 6,
         "isFolder": false
       },
       {
         "name": "components",
+        "id": 7,
         "isFolder": true,
         "children": []
       },
       {
         "name": "index.css",
+        "id": 8,
         "isFolder": false
       },
       {
         "name": "main.jsx",
+        "id": 9,
         "isFolder": false
       }
     ]
   },
   {
     "name": "index.html",
+    "id": 10,
     "isFolder": false
   },
   {
     "name": "pacakage.json",
+    "id": 11,
     "isFolder": false
   }
 ]
