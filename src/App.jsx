@@ -13,15 +13,9 @@ import data from "./data.json";
 function App() {
   const [folderData, setFolderData] = useState(data);
   return (
-    <div style={{width:"max-content"}}>
+    <div style={{ width: "max-content" }}>
       <h1> File explorer </h1>
-      {/* printing just the parent  */}
-      {/* {data?.map((ele)=>(
-      <>
-      <p>{ele?.name}</p>
-      </>
-     ))} */}
-      {/* here comes the recurraion of preting all the files whether parent or children */}
+
       {folderData?.map((ele) => (
         <File
           data={ele}
